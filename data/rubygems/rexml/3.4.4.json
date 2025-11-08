@@ -1,0 +1,9 @@
+{
+  "gem": "rexml",
+  "version": "3.4.4",
+  "dependencies": [],
+  "generated_at": "2025-11-08T14:58:29Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README",
+  "confidence": "unknown"
+}

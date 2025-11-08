@@ -1,0 +1,22 @@
+{
+  "gem": "fxruby",
+  "version": "1.6.49",
+  "dependencies": [
+    "libfox",
+    "zlib",
+    "libpng",
+    "libjpeg",
+    "libtiff",
+    "libx11",
+    "libxext",
+    "libxft",
+    "libxrandr",
+    "libgl",
+    "libglu"
+  ],
+  "generated_at": "2025-11-08T16:17:42Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Requires FOX Toolkit and X11 libraries for GUI rendering",
+  "confidence": "high",
+  "require_path": "fox16"
+}

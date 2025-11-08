@@ -1,0 +1,11 @@
+{
+  "name": "libsnappy",
+  "description": "Fast compression/decompression library",
+  "distros": {
+    "debian": "libsnappy-dev",
+    "ubuntu": "libsnappy-dev",
+    "alpine": "snappy-dev",
+    "fedora": "snappy-devel",
+    "arch": "snappy"
+  }
+}

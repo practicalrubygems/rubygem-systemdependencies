@@ -1,0 +1,14 @@
+{
+  "gem": "ruby-vips",
+  "version": "2.2.5",
+  "dependencies": [
+    "libvips",
+    "libvips42",
+    "vips"
+  ],
+  "require_path": "vips",
+  "generated_at": "2025-11-08T15:07:56Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Found 4 dependency hints: libvips, libvips-quick, libvips42, vips",
+  "confidence": "medium"
+}

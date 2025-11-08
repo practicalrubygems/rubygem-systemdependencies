@@ -1,0 +1,6 @@
+{
+  "name": "libgit2",
+  "description": "Portable C implementation of the Git core methods",
+  "category": "libraries",
+  "homepage": "https://libgit2.org/"
+}

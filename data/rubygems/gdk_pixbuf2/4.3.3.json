@@ -1,0 +1,9 @@
+{
+  "gem": "gdk_pixbuf2",
+  "version": "4.3.3",
+  "dependencies": ["glib2", "gdk-pixbuf", "gobject-introspection"],
+  "generated_at": "2025-11-08T16:09:05Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from native extension build errors",
+  "confidence": "high"
+}

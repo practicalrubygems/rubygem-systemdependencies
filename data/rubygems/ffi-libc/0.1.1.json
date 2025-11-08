@@ -1,0 +1,12 @@
+{
+  "gem": "ffi-libc",
+  "version": "0.1.1",
+  "require_path": "ffi/libc",
+  "dependencies": [
+    "libc"
+  ],
+  "generated_at": "2025-11-08T16:03:56Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Found 1 dependency hints: libc",
+  "confidence": "low"
+}

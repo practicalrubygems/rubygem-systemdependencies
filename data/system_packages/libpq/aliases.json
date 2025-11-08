@@ -1,0 +1,9 @@
+{
+  "canonical": "libpq",
+  "aliases": [
+    "libpq",
+    "libpq-dev",
+    "postgresql",
+    "postgres"
+  ]
+}

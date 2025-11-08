@@ -1,0 +1,18 @@
+{
+  "gem": "nokogiri",
+  "version": "1.18.10",
+  "dependencies": [
+    "libgumbo",
+    "libiconv",
+    "liblzma",
+    "libopt",
+    "libxml2",
+    "libxslt",
+    "libzlib",
+    "zlib"
+  ],
+  "generated_at": "2025-11-07T19:07:28Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb. Found 10 dependency hints: libgumbo, libiconv, libxml2, libxslt, rewriting, that, zlib, liblzma, libopt, libzlib",
+  "confidence": "high"
+}

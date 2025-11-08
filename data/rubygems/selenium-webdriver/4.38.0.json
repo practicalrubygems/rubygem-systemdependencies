@@ -1,0 +1,9 @@
+{
+  "gem": "selenium-webdriver",
+  "version": "4.38.0",
+  "dependencies": [],
+  "generated_at": "2025-11-08T15:00:02Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README",
+  "confidence": "unknown"
+}

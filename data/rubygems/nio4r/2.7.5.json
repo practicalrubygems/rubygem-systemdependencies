@@ -1,0 +1,12 @@
+{
+  "gem": "nio4r",
+  "version": "2.7.5",
+  "dependencies": [
+    "libev",
+    "libevent"
+  ],
+  "generated_at": "2025-11-08T14:58:43Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb. Found 2 dependency hints: libev, libevent",
+  "confidence": "low"
+}

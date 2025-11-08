@@ -1,0 +1,7 @@
+{
+  "canonical": "postgresql",
+  "aliases": [
+    "postgresql",
+    "postgresql-server"
+  ]
+}

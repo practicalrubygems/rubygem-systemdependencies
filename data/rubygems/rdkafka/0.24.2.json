@@ -1,0 +1,11 @@
+{
+  "gem": "rdkafka",
+  "version": "0.24.2",
+  "dependencies": [
+    "librdkafka"
+  ],
+  "generated_at": "2025-11-08T15:33:23Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Found 2 dependency hints: careful, librdkafka",
+  "confidence": "low"
+}

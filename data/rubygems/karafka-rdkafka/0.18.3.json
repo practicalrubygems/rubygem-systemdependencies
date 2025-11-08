@@ -1,0 +1,12 @@
+{
+  "gem": "karafka-rdkafka",
+  "version": "0.18.3",
+  "require_path": "rdkafka",
+  "dependencies": [
+    "librdkafka"
+  ],
+  "generated_at": "2025-11-08T15:45:00Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "karafka-rdkafka is a fork of rdkafka with the same require path",
+  "confidence": "high"
+}

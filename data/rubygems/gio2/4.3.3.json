@@ -1,0 +1,9 @@
+{
+  "gem": "gio2",
+  "version": "4.3.3",
+  "dependencies": ["glib", "gobject-introspection"],
+  "generated_at": "2025-11-08T16:01:40Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb",
+  "confidence": "unknown"
+}

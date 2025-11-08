@@ -1,0 +1,17 @@
+{
+  "gem": "mysql2",
+  "version": "0.5.7",
+  "dependencies": [
+    "default-libmysqlclient",
+    "libasan",
+    "libmariadb",
+    "libmysql",
+    "libopenssl",
+    "mysql",
+    "openssl"
+  ],
+  "generated_at": "2025-11-08T15:07:31Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb. Found 11 dependency hints: anymore, default-libmysqlclient, libmariadb, libmysql, multiple, mysql, open, openssl, things, libasan, libopenssl",
+  "confidence": "high"
+}

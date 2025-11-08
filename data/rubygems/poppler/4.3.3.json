@@ -1,0 +1,12 @@
+{
+  "gem": "poppler",
+  "version": "4.3.3",
+  "dependencies": [
+    "poppler-glib",
+    "gobject-introspection"
+  ],
+  "generated_at": "2025-11-08T16:08:03Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from gemspec requirements",
+  "confidence": "high"
+}

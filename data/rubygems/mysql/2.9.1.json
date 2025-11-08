@@ -1,0 +1,11 @@
+{
+  "gem": "mysql",
+  "version": "2.9.1",
+  "dependencies": [
+    "mysql"
+  ],
+  "generated_at": "2025-11-07T19:06:56Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb. Found 1 dependency hints: mysql",
+  "confidence": "low"
+}

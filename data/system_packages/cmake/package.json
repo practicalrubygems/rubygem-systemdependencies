@@ -1,0 +1,6 @@
+{
+  "name": "cmake",
+  "description": "Cross-platform build system generator",
+  "category": "build-tools",
+  "homepage": "https://cmake.org/"
+}

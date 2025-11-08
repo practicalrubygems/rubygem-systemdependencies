@@ -1,0 +1,17 @@
+{
+  "gem": "ffi",
+  "version": "1.17.2",
+  "dependencies": [
+    "libc",
+    "libffi",
+    "libffi-8",
+    "libffi-alloc",
+    "libffi_c",
+    "libffi_convenience",
+    "libshlwapi"
+  ],
+  "generated_at": "2025-11-08T15:14:46Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb. Found 7 dependency hints: libc, libffi, libffi-alloc, libffi-8, libffi_c, libffi_convenience, libshlwapi",
+  "confidence": "high"
+}

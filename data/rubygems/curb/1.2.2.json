@@ -1,0 +1,15 @@
+{
+  "gem": "curb",
+  "version": "1.2.2",
+  "dependencies": [
+    "curl",
+    "libcurl3",
+    "libcurl3-gnutls",
+    "libcurl4",
+    "openssl"
+  ],
+  "generated_at": "2025-11-08T15:35:47Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Found 8 dependency hints: curb, curl, extconf, libcurl3, libcurl3-gnutls, libcurl4, libcurl4-openssl, openssl",
+  "confidence": "medium"
+}

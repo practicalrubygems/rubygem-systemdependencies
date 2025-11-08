@@ -1,0 +1,9 @@
+{
+  "gem": "bigdecimal",
+  "version": "3.3.1",
+  "dependencies": [],
+  "generated_at": "2025-11-08T15:00:38Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from extconf.rb",
+  "confidence": "unknown"
+}

@@ -1,0 +1,12 @@
+{
+  "gem": "snappy",
+  "version": "0.4.0",
+  "dependencies": [
+    "cmake",
+    "libsnappy"
+  ],
+  "generated_at": "2025-11-08T15:39:00Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from extconf.rb error. Requires cmake and libsnappy-dev.",
+  "confidence": "high"
+}

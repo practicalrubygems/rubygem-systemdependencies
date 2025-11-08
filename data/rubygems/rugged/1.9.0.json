@@ -1,0 +1,12 @@
+{
+  "gem": "rugged",
+  "version": "1.9.0",
+  "dependencies": [
+    "cmake",
+    "libgit2"
+  ],
+  "generated_at": "2025-11-08T15:24:41Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb. Found 4 dependency hints: cmake, information, libgit2, redis. Removed 'redis' (false positive), added 'cmake' (required for build)",
+  "confidence": "medium"
+}

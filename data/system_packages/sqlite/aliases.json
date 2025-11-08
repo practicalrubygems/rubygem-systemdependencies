@@ -1,0 +1,8 @@
+{
+  "canonical": "sqlite",
+  "aliases": [
+    "sqlite",
+    "sqlite3",
+    "libsqlite3"
+  ]
+}

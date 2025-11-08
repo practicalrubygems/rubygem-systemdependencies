@@ -1,0 +1,212 @@
+# Dependency Pattern Matching Rules
+#
+# This file defines how dependency hints extracted from README and extconf.rb
+# files are mapped to system package categories in data/system_packages/.
+#
+# Structure:
+# - mappings: Direct string-to-category mappings
+# - patterns: Regular expression patterns with category assignments
+
+# Direct mappings from hint strings to system package categories
+mappings:
+  # Database libraries
+  postgresql: postgresql
+  postgres: postgresql
+  libpq: postgresql
+  pq: postgresql
+
+  mysql: mysql
+  libmysqlclient: mysql
+  mariadb: mysql
+
+  sqlite: sqlite3
+  sqlite3: sqlite3
+  libsqlite3: sqlite3
+
+  # XML/HTML processing
+  libxml2: libxml2
+  xml2: libxml2
+  libxml: libxml2
+
+  libxslt: libxslt
+  libxslt1: libxslt
+  xslt: libxslt
+
+  # Compression
+  zlib: zlib
+  libz: zlib
+
+  # SSL/Crypto
+  openssl: openssl
+  libssl: openssl
+  libcrypto: openssl
+  ssl: openssl
+
+  # Image processing
+  imagemagick: imagemagick
+  libmagick: imagemagick
+  libmagickwand: imagemagick
+  libmagickcore: imagemagick
+  magick: imagemagick
+  magickwand: imagemagick
+  magickcore: imagemagick
+
+  # Video/Audio processing
+  ffmpeg: ffmpeg
+  libav: ffmpeg
+
+  # Network libraries
+  curl: curl
+  libcurl: curl
+
+  # Foreign Function Interface
+  libffi: libffi
+  ffi: libffi
+
+  # File type detection
+  libmagic: libmagic
+  magic: libmagic
+
+  # Data stores
+  redis: redis
+  mongodb: mongodb
+  memcached: memcached
+
+  # Other common libraries
+  readline: readline
+  libreadline: readline
+
+  ncurses: ncurses
+  libncurses: ncurses
+
+  gdbm: gdbm
+  libgdbm: gdbm
+
+  yaml: libyaml
+  libyaml: libyaml
+
+  pcre: pcre
+  libpcre: pcre
+
+  # Graphics libraries
+  cairo: cairo
+  libcairo: cairo
+
+  gdk: gdk
+  gtk: gtk
+
+  # Sound libraries
+  alsa: alsa
+  libasound: alsa
+
+  portaudio: portaudio
+  libportaudio: portaudio
+
+  # Development tools
+  pkg-config: pkg-config
+  pkgconfig: pkg-config
+
+# Pattern-based matching using regular expressions
+# Each pattern should have:
+# - pattern: Regular expression to match (case-insensitive)
+# - category: System package category to map to
+patterns:
+  - pattern: '\bpostgres(ql)?'
+    category: postgresql
+
+  - pattern: '\bmysql'
+    category: mysql
+
+  - pattern: '\bsqlite'
+    category: sqlite3
+
+  - pattern: '\bxml2?'
+    category: libxml2
+
+  - pattern: '\bxslt'
+    category: libxslt
+
+  - pattern: '\b(open)?ssl'
+    category: openssl
+
+  - pattern: '\bzlib'
+    category: zlib
+
+  - pattern: '\bmagick'
+    category: imagemagick
+
+  - pattern: '\bffmpeg'
+    category: ffmpeg
+
+  - pattern: '\bcurl'
+    category: curl
+
+  - pattern: '\bffi'
+    category: libffi
+
+  - pattern: '\bredis'
+    category: redis
+
+  - pattern: '\bmongodb?'
+    category: mongodb
+
+  - pattern: '\breadline'
+    category: readline
+
+  - pattern: '\bncurses'
+    category: ncurses
+
+  - pattern: '\byaml'
+    category: libyaml
+
+# Gem-specific overrides
+# Use when a specific gem has known dependencies that differ from pattern matching
+gem_overrides:
+  nokogiri:
+    - libxml2
+    - libxslt
+    - zlib
+
+  pg:
+    - postgresql
+
+  mysql2:
+    - mysql
+
+  sqlite3:
+    - sqlite3
+
+  rmagick:
+    - imagemagick
+
+  curb:
+    - curl
+
+  ffi:
+    - libffi
+
+  redis:
+    - redis
+
+  mongoid:
+    - mongodb
+
+  paperclip:
+    - imagemagick
+
+  carrierwave:
+    - imagemagick
+
+# Notes for maintainers:
+#
+# Adding new mappings:
+# 1. Test pattern matching on actual gem README/extconf.rb files
+# 2. Verify the system package category exists in data/system_packages/
+# 3. Add both exact string mappings and pattern variants
+# 4. Update gem_overrides for gems with known dependencies
+#
+# Pattern matching order:
+# 1. Gem-specific overrides (highest priority)
+# 2. Direct mappings
+# 3. Pattern-based matching
+# 4. Fallback to hint as-is (if it looks like a library name)

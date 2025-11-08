@@ -1,0 +1,11 @@
+{
+  "gem": "pcaprub",
+  "version": "0.13.3",
+  "dependencies": [
+    "libpcap"
+  ],
+  "generated_at": "2025-11-08T15:56:25Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb. Found 4 dependency hints: libpcap, libiphlpapi, libwpcap, libws2_32",
+  "confidence": "medium"
+}

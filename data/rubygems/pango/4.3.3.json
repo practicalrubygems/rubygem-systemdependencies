@@ -1,0 +1,11 @@
+{
+  "gem": "pango",
+  "version": "4.3.3",
+  "dependencies": [
+    "pango"
+  ],
+  "generated_at": "2025-11-08T16:21:07Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb. Requires pango and gobject-introspection libraries.",
+  "confidence": "high"
+}

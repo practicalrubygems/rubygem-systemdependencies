@@ -1,0 +1,4 @@
+{
+  "canonical": "libgl",
+  "aliases": ["libgl", "gl", "opengl", "mesa"]
+}

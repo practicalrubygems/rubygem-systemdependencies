@@ -1,0 +1,14 @@
+{
+  "gem": "re2",
+  "version": "2.20.0",
+  "dependencies": [
+    "cmake",
+    "pkgconf",
+    "libc",
+    "libre2"
+  ],
+  "generated_at": "2025-11-08T15:36:36Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb. Found 3 dependency hints: libc, libre2, pkgconf",
+  "confidence": "low"
+}

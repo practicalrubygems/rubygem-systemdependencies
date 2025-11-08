@@ -1,0 +1,11 @@
+{
+  "gem": "rsvg2",
+  "version": "4.3.3",
+  "dependencies": [
+    "librsvg"
+  ],
+  "generated_at": "2025-11-08T16:13:26Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Found 1 dependency hints: librsvg",
+  "confidence": "low"
+}

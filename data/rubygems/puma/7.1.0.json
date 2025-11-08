@@ -1,0 +1,13 @@
+{
+  "gem": "puma",
+  "version": "7.1.0",
+  "dependencies": [
+    "libopenssl",
+    "libpuma_http11",
+    "openssl"
+  ],
+  "generated_at": "2025-11-08T14:59:14Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb. Found 3 dependency hints: openssl, libopenssl, libpuma_http11",
+  "confidence": "medium"
+}

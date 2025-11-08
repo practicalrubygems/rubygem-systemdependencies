@@ -1,0 +1,9 @@
+{
+  "gem": "playwright-ruby-client",
+  "version": "1.56.0",
+  "require_path": "playwright",
+  "dependencies": [],
+  "generated_at": "2025-11-08T16:06:00Z",
+  "confidence": "high",
+  "notes": "Pure Ruby implementation, no native dependencies required"
+}

@@ -1,0 +1,78 @@
+# Popular Ruby gems that require system dependencies
+#
+# This list contains commonly-used gems with native extensions or
+# system library dependencies. Use this with the --list flag:
+#
+#   ruby scripts/generate_gem_dependencies.rb --list scripts/examples/popular_gems.txt
+#
+# Format: gem_name [version]
+# - Lines starting with # are comments
+# - Blank lines are ignored
+# - Version is optional (latest will be used if omitted)
+
+# Database adapters
+pg
+mysql2
+sqlite3
+
+# XML/HTML processing
+nokogiri
+libxml-ruby
+ox
+
+# Image processing
+rmagick
+mini_magick
+paperclip
+
+# HTTP clients with native code
+curb
+patron
+typhoeus
+
+# Foreign Function Interface
+ffi
+
+# Compression
+rubyzip
+
+# Cryptography
+bcrypt
+rbnacl
+
+# Full-text search
+ferret
+
+# MessagePack
+msgpack
+
+# JSON parsing
+oj
+yajl-ruby
+
+# System utilities
+eventmachine
+thin
+puma
+
+# Redis
+redis
+hiredis
+
+# MongoDB
+mongoid
+bson
+
+# Background jobs
+resque
+sidekiq
+
+# Asset processing
+sassc
+libv8
+therubyracer
+
+# Other common gems with dependencies
+charlock_holmes
+ruby-filemagick
+ruby-vips

@@ -1,0 +1,12 @@
+{
+  "gem": "ruby-odbc",
+  "version": "0.999992",
+  "dependencies": [
+    "unixodbc"
+  ],
+  "require_path": "odbc",
+  "generated_at": "2025-11-08T00:00:00Z",
+  "generator": "manual",
+  "notes": "ODBC database interface for Ruby. Requires unixODBC development files.",
+  "confidence": "high"
+}

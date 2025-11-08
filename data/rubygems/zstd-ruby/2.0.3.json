@@ -1,0 +1,10 @@
+{
+  "gem": "zstd-ruby",
+  "version": "2.0.3",
+  "dependencies": [],
+  "require_path": "zstd-ruby",
+  "generated_at": "2025-11-08T15:41:47Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb. Found 1 dependency hints: statement",
+  "confidence": "unknown"
+}

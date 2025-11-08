@@ -1,0 +1,12 @@
+{
+  "gem": "bzip2-ffi",
+  "version": "1.1.1",
+  "dependencies": [
+    "libbz2"
+  ],
+  "generated_at": "2025-11-08T16:15:37Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Requires libbz2 shared library loaded via FFI",
+  "confidence": "high",
+  "require_path": "bzip2/ffi"
+}

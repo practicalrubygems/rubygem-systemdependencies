@@ -1,0 +1,10 @@
+{
+  "canonical": "mysql",
+  "aliases": [
+    "mysql",
+    "libmysql",
+    "libmariadb",
+    "default-libmysqlclient",
+    "mysql-client"
+  ]
+}

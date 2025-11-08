@@ -1,0 +1,11 @@
+{
+  "canonical": "libcurl",
+  "aliases": [
+    "curl",
+    "libcurl",
+    "libcurl3",
+    "libcurl3-gnutls",
+    "libcurl4",
+    "libcurl4-openssl"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "gem": "gobject-introspection",
+  "version": "4.3.3",
+  "dependencies": ["gobject-introspection"],
+  "test_extra_runtime_dependencies": ["glib2"],
+  "require_path": "gi",
+  "generated_at": "2025-11-08T16:00:41Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb",
+  "confidence": "unknown"
+}

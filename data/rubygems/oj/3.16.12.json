@@ -1,0 +1,9 @@
+{
+  "gem": "oj",
+  "version": "3.16.12",
+  "dependencies": [],
+  "generated_at": "2025-11-08T15:00:27Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb",
+  "confidence": "unknown"
+}

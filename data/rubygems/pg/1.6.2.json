@@ -1,0 +1,13 @@
+{
+  "gem": "pg",
+  "version": "1.6.2",
+  "dependencies": [
+    "libruby",
+    "openssl",
+    "postgresql"
+  ],
+  "generated_at": "2025-11-07T19:07:25Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Found 5 dependency hints: any, libcrypto, libruby, openssl, postgresql",
+  "confidence": "medium"
+}

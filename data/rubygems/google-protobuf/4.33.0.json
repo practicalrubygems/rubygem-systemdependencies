@@ -1,0 +1,9 @@
+{
+  "gem": "google-protobuf",
+  "version": "4.33.0",
+  "dependencies": [],
+  "generated_at": "2025-11-08T14:59:37Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from extconf.rb",
+  "confidence": "unknown"
+}

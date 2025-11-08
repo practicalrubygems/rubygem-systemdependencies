@@ -1,0 +1,7 @@
+{
+  "canonical": "redis",
+  "aliases": [
+    "redis",
+    "redis-server"
+  ]
+}

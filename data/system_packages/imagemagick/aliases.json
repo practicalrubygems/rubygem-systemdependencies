@@ -1,0 +1,8 @@
+{
+  "canonical": "imagemagick",
+  "aliases": [
+    "imagemagick",
+    "imagemagick-dev",
+    "libmagick"
+  ]
+}
