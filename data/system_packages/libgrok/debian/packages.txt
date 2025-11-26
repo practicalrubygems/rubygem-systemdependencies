@@ -1,1 +1,9 @@
-\
+bison
+flex
+gperf
+libevent-dev
+libpcre3-dev
+libtokyocabinet-dev
+libtirpc-dev
+git
+ca-certificates
