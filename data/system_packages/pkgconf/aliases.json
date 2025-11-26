@@ -1,0 +1,9 @@
+{
+  "canonical": "pkgconf",
+  "aliases": [
+    "pkgconf",
+    "pkg-config",
+    "libpkg_config",
+    "pkg_config"
+  ]
+}

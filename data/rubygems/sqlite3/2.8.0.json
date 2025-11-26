@@ -1,0 +1,12 @@
+{
+  "gem": "sqlite3",
+  "version": "2.8.0",
+  "dependencies": [
+    "libpkg_config",
+    "sqlite3"
+  ],
+  "generated_at": "2025-11-26T15:40:28Z",
+  "generator": "rubygem-systemdependencies",
+  "notes": "Dependencies detected from README. Dependencies detected from extconf.rb. Found 5 dependency hints: manual, sqlite3, that, libpkg_config, libxpopen",
+  "confidence": "medium"
+}
