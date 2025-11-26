@@ -1,0 +1,3 @@
+libgit2-devel
+pkgconfig
+openssl-devel

@@ -1,0 +1,3 @@
+glib-dev
+pango-dev
+gobject-introspection-dev

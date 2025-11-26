@@ -1,0 +1,3 @@
+glib-dev
+librsvg-dev
+gobject-introspection-dev
