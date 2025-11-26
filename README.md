@@ -79,9 +79,10 @@ MIT License - See [LICENSE](LICENSE) for details
 
 ## Related Projects
 
-- [bundler](https://bundler.io/) - Ruby dependency management
-- [apt-gem](https://github.com/dreamphg/apt-gem) - Automatic system dependency installation
+- [apt-gem](https://github.com/dcu/gem2deb) - Convert RubyGems to deb packages
+- [fpm](https://github.com/jordansissel/fpm) - Convert RubyGems to deb, rpm, and other packages
 - [dockerizing-ruby](https://github.com/docker-library/ruby) - Official Ruby Docker images
+- [bundler](https://bundler.io/) - Ruby dependency management
 
 ## Support
 
